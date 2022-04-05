@@ -1,0 +1,49 @@
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    text-align: center;
+}
+
+nav{
+    width: 100vw;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 0;
+    }
+
+    a{
+        display: block;
+    }
+
+    button{
+        display: block;
+        padding: 2vw;
+        font-size: 3vh;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
